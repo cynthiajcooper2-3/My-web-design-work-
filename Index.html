@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#102a43">
+  <title>Cynthia J Copper | Digital Resume</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="topbar" aria-label="Main navigation">
+    <a class="brand" href="#home">CJC<span>.</span></a>
+    <div class="nav-links">
+      <a href="#profile">Profile</a><a href="#education">Education</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">DIGITAL RESUME · LIBERIA</p>
+        <h1>Cynthia J<br><span>Copper</span></h1>
+        <p class="role">Database Student <span class="dot">•</span> Aspiring Web Developer</p>
+        <p class="intro">A motivated university student who enjoys organizing information, learning web technologies, and creating useful digital experiences.</p>
+        <div class="hero-actions"><a class="button primary" href="#contact">Get in touch</a><a class="button secondary" href="#profile">Explore resume <span aria-hidden="true">↓</span></a></div>
+      </div>
+      <div class="hero-photo-wrap">
+        <div class="photo-frame"><img src="cynthia-profile.jpeg" alt="Portrait of Cynthia J Copper" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="photo-fallback" aria-hidden="true">CC</div></div>
+        <div class="photo-note"><span class="status-dot"></span> Learning · Building · Growing</div>
+      </div>
+      <div class="hero-number" aria-hidden="true">01</div>
+    </section>
+
+    <section class="content-grid" id="profile">
+      <aside class="section-label"><span>01 / ABOUT</span><h2>A little<br>about me.</h2></aside>
+      <div class="section-content">
+        <p class="lead">I am a junior-level university student studying databases. I enjoy organizing information and am learning HTML, CSS and JavaScript to build useful web pages.</p>
+        <p>My goal is to grow into a database or web developer role. Outside of technology, I also enjoy cooking for people and developing my practical skills.</p>
+        <div class="message-box"><p id="profile-message" aria-live="polite">Welcome to my digital resume.</p><button type="button" id="message-button">Show message <span aria-hidden="true">↗</span></button></div>
+      </div>
+    </section>
+
+    <section class="content-grid" id="education">
+      <aside class="section-label"><span>02 / LEARNING</span><h2>Education.</h2></aside>
+      <div class="section-content timeline">
+        <article class="timeline-item"><span class="timeline-date">2012 – 2013</span><div><h3>Bassa High School</h3><p>High School Diploma</p></div></article>
+        <article class="timeline-item"><span class="timeline-date">2023 – Present</span><div><h3>University Studies</h3><p>Database studies · Junior level</p><p class="muted">University name can be updated with the correct institution.</p></div></article>
+      </div>
+    </section>
+
+    <section class="content-grid" id="experience">
+      <aside class="section-label"><span>03 / EXPERIENCE</span><h2>Work &amp;<br>experience.</h2></aside>
+      <div class="section-content experience-card"><div class="experience-top"><span class="icon-box">✳</span><span class="pill">2013 – Present</span></div><h3>Cook</h3><p class="muted">Graduation celebrations &amp; home cooking</p><ul class="check-list"><li>Prepared food for a graduation celebration.</li><li>Continued cooking regularly while improving practical skills.</li><li>Planned meals and managed time to serve food on schedule.</li></ul></div>
+    </section>
+
+    <section class="content-grid" id="skills">
+      <aside class="section-label"><span>04 / TOOLKIT</span><h2>Skills in<br>progress.</h2></aside>
+      <div class="section-content"><p class="lead">Tools and areas I am developing.</p><div class="skills-grid"><div class="skill"><span>01</span><strong>HTML</strong><small>Web structure</small></div><div class="skill"><span>02</span><strong>CSS</strong><small>Responsive styling</small></div><div class="skill"><span>03</span><strong>JavaScript</strong><small>Fundamentals</small></div><div class="skill"><span>04</span><strong>Databases</strong><small>Data organization</small></div><div class="skill"><span>05</span><strong>Git &amp; GitHub</strong><small>Version control</small></div></div></div>
+    </section>
+
+    <section class="contact-section" id="contact"><div><p class="eyebrow">05 / CONTACT</p><h2>Let’s connect.</h2><p>Have a question or opportunity? Send a message using the form.</p></div><form id="contact-form"><label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Enter your name" required><label for="email">Email address</label><input id="email" name="email" type="email" placeholder="you@example.com" required><label for="message">Message</label><textarea id="message-field" name="message" rows="4" placeholder="Write your message..." required></textarea><button class="button primary" type="submit">Prepare email <span aria-hidden="true">↗</span></button><p class="form-note" id="form-note" aria-live="polite">This opens your email app; it does not send automatically.</p></form></section>
+  </main>
+  <footer><a class="brand" href="#home">CJC<span>.</span></a><p>© 2026 Cynthia J Copper · Monrovia, Liberia</p><a href="mailto:cynthiasow898@gmail.com">cynthiasow898@gmail.com</a></footer>
+  <script src="javascript.js"></script>
+</body>
+</html>
